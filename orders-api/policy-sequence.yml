@@ -11,3 +11,5 @@ metadata:
 spec:
   main:
     - $ref: orders-api:invoke-order-system:1.0
+  monitoring:
+    $ref: orders-api:telemetry:1.0
